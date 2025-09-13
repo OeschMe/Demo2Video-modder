@@ -1,6 +1,7 @@
 # Demo2Video-modder
 Automatic mod merge for the Demo2Video project
-Script will take backups of the Vanilla files and fetch the modded files automatically.
+
+Script will take timestamped backups of the files and fetch the modded/new files automatically.
 
 ## How to use?
 ### Manual method
