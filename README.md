@@ -14,13 +14,11 @@ Clone this repository with `git clone https://github.com/OeschMe/Demo2Video-modd
 
 ## What's different?
 
-### autorun/run-demo2video.bat
-* Automatic script to start all required scripts and programs
-
-  *Steps 1 and 2 are necessary **only** on first run.*
- 1. Configure the variables in /autorun/run-demo2video.bat
- 2. Move the bat file to your desired location, eg. Desktop
- 3. Run the bat file.
+### run.bat
+* Resolves Node/NVM and Python for this window (no PATH drama).
+* Starts the CSDM dev server and the CS Demo Processor.
+* Launches OBS (if you saved its path on first run).
+* Opens the web UI at http://localhost:5001.
 
 ### main.py
 * Automatically fetch suspects name from CSWatch API and filter non-YouTube friendly characters out
