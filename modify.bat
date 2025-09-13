@@ -3,20 +3,21 @@
 @echo off
 title Demo2Video modder by OeschMe
 set workingdir=%~dp0
+set currenttime=%date:~3,2%%date:~6,2%%date:~9,4%_%time:~0,2%%time:~3,2%%time:~6,2%
 
-:: Move old files out of the way to /bak/
-echo ------------------------------------------ && echo Moving old files to /bak && echo ------------------------------------------ && echo: && echo:
-mkdir bak && mkdir autorun
-cd bak
+:: Move old files out of the way to /bak_%currenttime%
+echo ------------------------------------------ && echo Moving old files to /bak with timestamp && echo ------------------------------------------ && echo: && echo:
+mkdir bak_%currenttime% && mkdir autorun
+cd bak_%currenttime%
 mkdir static && mkdir templates && cd ..
 
-echo README.md && move ./README.md ./bak/README.md
-echo demo_downloader.py && move ./demo_downloader.py ./bak/demo_downloader.py
-echo main.py && move ./main.py ./bak/main.py
-echo web_server.py && move ./web_server.py ./bak/web_server.py
-echo youtube_uploader.py && move ./youtube_uploader.py ./bak/youtube_uploader.py
-echo static/style.css && cd static && move ./style.css ../bak/static/style.css
-echo templates/index.html && cd ../templates && move ./index.html ../bak/templates/index.html
+echo README.md && move ./README.md ./bak_%currenttime%/README.md
+echo demo_downloader.py && move ./demo_downloader.py ./bak_%currenttime%/demo_downloader.py
+echo main.py && move ./main.py ./bak_%currenttime%/main.py
+echo web_server.py && move ./web_server.py ./bak_%currenttime%/web_server.py
+echo youtube_uploader.py && move ./youtube_uploader.py ./bak_%currenttime%/youtube_uploader.py
+echo static/style.css && cd static && move ./style.css ../bak_%currenttime%/static/style.css
+echo templates/index.html && cd ../templates && move ./index.html ../bak_%currenttime%/templates/index.html
 
 :: Fetch the modded files
 echo: && echo: &&echo ------------------------------------------ && echo Getting modified files.. && echo ------------------------------------------ && echo: && echo:
