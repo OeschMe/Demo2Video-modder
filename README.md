@@ -9,14 +9,14 @@ Modder script will take timestamped backups of the files and fetch the modded/ne
 ### Options, if you don't have it installed
 1. Easiest way
    * Install D2V using [Moon²s fork](https://github.com/m0onmo0n/Demo2Video-Installer) of auto installer
-   * Use modder to aplly forked edits
+   * Use this modder to aplly forked edits
 
 2. Direct way
    * Install modded D2V manually using [my fork](https://github.com/OeschMe/Demo2Video-oeschme)
 
 3. Manual way (the hard way)
    * Install vanilla D2V manually using [Nortons repo](https://github.com/norton62/Demo2Video)
-   * Use modder to aplly forked edits
+   * Use this modder to aplly forked edits
 
 
 ## How to use?
