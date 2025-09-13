@@ -12,6 +12,7 @@ cd bak_%currenttime%
 mkdir static && mkdir templates && cd ..
 
 echo README.md && move ./README.md ./bak_%currenttime%/README.md
+echo run.bat && move ./run.bat ./bak_%currenttime%/run.bat
 echo demo_downloader.py && move ./demo_downloader.py ./bak_%currenttime%/demo_downloader.py
 echo main.py && move ./main.py ./bak_%currenttime%/main.py
 echo web_server.py && move ./web_server.py ./bak_%currenttime%/web_server.py
@@ -33,6 +34,8 @@ echo main.py && powershell -Command "(New-Object Net.WebClient).DownloadFile('ht
 echo web_Server.py && powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/OeschMe/Demo2Video-oeschme/refs/heads/main/web_server.py', '%workingdir%/web_server.py')"
 :: youtube_uploader.py
 echo youtube_uploader.py && powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/OeschMe/Demo2Video-oeschme/refs/heads/main/youtube_uploader.py', '%workingdir%/youtube_uploader.py')"
+:: run.bat
+echo run.bat && powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/OeschMe/Demo2Video-oeschme/refs/heads/main/run.bat', '%workingdir%/run.bat')"
 
 :: Template (html)
 :: index.html
@@ -41,9 +44,6 @@ echo template/index.html && powershell -Command "(New-Object Net.WebClient).Down
 :: Static (css)
 :: style.css
 echo static/style.css && powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/OeschMe/Demo2Video-oeschme/refs/heads/main/static/style.css', '%workingdir%/static/style.css')"
-
-:: Autorun.bat
-echo autorun/run-demo2video.bat && powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/OeschMe/Demo2Video-oeschme/refs/heads/main/autorun/run-demo2video.bat', '%workingdir%/autorun/run-demo2video.bat')"
 
 :: Show success message to user
 echo: && echo: && echo ------------------------------------------ && echo Done! All modifications done succesfully! && echo ------------------------------------------ && echo: && echo:
