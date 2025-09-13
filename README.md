@@ -3,6 +3,8 @@ Automatic mod merge for the Demo2Video project
 
 Script will take timestamped backups of the files and fetch the modded/new files automatically.
 
+<sup><sub>Script still misses error handling, but it should work as is from proper D2V project folder.</sub></sup>
+
 ## How to use?
 ### Manual method
 Manually download the `modify.bat` from file page to your Demo2Video project folder and run it
