@@ -8,7 +8,7 @@ Automatic mod merge for the Demo2Video project
    * Use modder to aplly forked edits
 
 2. Direct way
-   * Install modded D2V manually using [my fork](https://github.com/OeschMe/Demo2Video-oeschme
+   * Install modded D2V manually using [my fork](https://github.com/OeschMe/Demo2Video-oeschme)
 
 3. Manual way (the hard way)
    * Install vanilla D2V manually using [Nortons repo](https://github.com/norton62/Demo2Video)
