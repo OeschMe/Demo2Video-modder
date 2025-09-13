@@ -38,21 +38,19 @@ Clone this repository with `git clone https://github.com/OeschMe/Demo2Video-modd
 * Automatically fetch suspects name from CSWatch API and filter non-YouTube friendly characters out
 * Add timestamp to each completed job
 * Changed file naming scheme (including YouTube title naming)
-* Added support for per job save method processing
+* Added support for per job save method selection
 
 
 ### index.html
 * Added batch process form
 * Rearranged previous jobs list
   * Added timestamp and suspects name
+  * Added "Copy YT link" button in the table row and "Show output" dialog
+    * Also shows popup with the youtube URL when copy is succesfull
 * Added per job save method radio buttons
   * This setting is saved as a cookike
-* Added "Copy YT link" button in the table row and "Show output" dialog
-  * Also shows popup with the youtube URL when copy is succesfull
-
-
 * Added jQ cookie lib
-* System has functionality for custom "Submitter name" renaming, but it's not fully implemented yet.
+<sub>* System has functionality for custom "Submitter name" renaming, but it's not fully implemented yet.</sub>
 
 
 ### style.css
