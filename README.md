@@ -12,7 +12,7 @@ Clone this repository with `git clone https://github.com/OeschMe/Demo2Video-modd
 
 ## What's different?
 
-### autorun/run-demo2vide.bat
+### autorun/run-demo2video.bat
 * Automatic script to start all required scripts and programs
 
   *Steps 1 and 2 are necessary **only** on first run.*
