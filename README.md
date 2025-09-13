@@ -1,6 +1,19 @@
 # Demo2Video-modder
 Automatic mod merge for the Demo2Video project
 
+### This requires existing installation of Demo2Video!
+### Options, if you don't have it installed
+1. Easiest way
+   * Install D2V using [Moon²s fork](https://github.com/m0onmo0n/Demo2Video-Installer) of auto installer
+   * Use modder to aplly forked edits
+
+2. Direct way
+   * Install modded D2V manually using [my fork](https://github.com/OeschMe/Demo2Video-oeschme
+
+3. Manual way (the hard way)
+   * Install vanilla D2V manually using [Nortons repo](https://github.com/norton62/Demo2Video)
+   * Use modder to aplly forked edits
+
 Script will take timestamped backups of the files and fetch the modded/new files automatically.
 
 <sup><sub>Script still misses error handling, but it should work as is from proper D2V project folder.</sub></sup>
