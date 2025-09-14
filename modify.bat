@@ -3,7 +3,7 @@
 @echo off
 title Demo2Video modder by OeschMe
 set workingdir=%~dp0
-set currenttime=%date:~3,2%%date:~6,2%%date:~9,4%_%time:~0,2%%time:~3,2%%time:~6,2%
+@for /f "delims=" %%a in ('Powershell -C date -format yyyyMMdd-HHmmss') do Set "currenttime=%%a"
 
 :: Move old files out of the way to /bak_%currenttime%
 echo ------------------------------------------ && echo Moving old files to /bak with timestamp && echo ------------------------------------------ && echo: && echo:
