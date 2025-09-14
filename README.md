@@ -6,7 +6,7 @@ Modder script will take timestamped backups of the files and fetch the modded/ne
 <sup><sub>Script still misses error handling, but it should work as is from proper D2V project folder.</sub></sup>
 
 ### This requires existing installation of Demo2Video!
-### Options, if you don't have it installed
+### Options, if you <ins>don't have</ins> it installed
 1. Easiest way
    * Install D2V using [Moon²s fork](https://github.com/m0onmo0n/Demo2Video-Installer) of auto installer
    * Use this modder to aplly forked edits
