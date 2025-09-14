@@ -42,6 +42,7 @@ Clone this repository with `git clone https://github.com/OeschMe/Demo2Video-modd
 
 
 ### index.html
+* Added "Demo expired" to response list
 * Added batch process form
 * Rearranged previous jobs list
   * Added timestamp and suspects name
@@ -68,3 +69,4 @@ Clone this repository with `git clone https://github.com/OeschMe/Demo2Video-modd
 
 ### demo_downloader.py
 * Rearranged API endpoints for load balancing
+* Fixed "Demo expired" detection
